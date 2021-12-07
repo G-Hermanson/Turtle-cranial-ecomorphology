@@ -5,6 +5,6 @@ This repository includes:
 
 - Phylogenetic trees files in Newick format, used for phylogenetic regressions of skull (i) size and (ii) shape;
   
-- R scripts used to run the analyses;
+- R scripts used to run the analyses
 
 Link to the original article:
