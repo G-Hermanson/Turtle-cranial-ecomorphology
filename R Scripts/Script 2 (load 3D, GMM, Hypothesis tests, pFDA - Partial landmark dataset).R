@@ -228,10 +228,10 @@ start <- Sys.time() # this is optional; just to check how long this analyis took
 reps = 100 #number of iterations
 
 #From this point on, pFDA will run using composite toplogy based on Evers et al. (2019); 
-#To run it using the topology from Sterli et al. (2018), add the '#' prior to line 234, and remove the '#' prior to line 235;
+#To run it using the topology from Sterli et al. (2018), add the '#' prior to line 233, and remove the '#' prior to line 234;
 
-#full.tree <- Evers_tree
-full.tree <- Sterli_tree
+full.tree <- Evers_tree
+#full.tree <- Sterli_tree
 
 
 #create a vector of numbers representing the row indices of extant turtles that DON'T have the trait (i.e. 'trait' = 0)
