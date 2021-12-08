@@ -219,9 +219,8 @@ reg.full <- procD.scores ( bestmodel.full , plot = F )
 ### 2B-PLS analyses between emarginations ###
 
 ## Get rows with emargination landmarks
-#n.emarg.temp <-  grep('Temporal', x = rownames(sliders.full))
+
 n.emarg.temp <-  grep('Temporal', x = land.rownames)
-#n.emarg.cheek <-  grep('Cheek', x = rownames(sliders.full))
 n.emarg.cheek <-  grep('Cheek', x = land.rownames)
 
 # subset temporal emargination landmarks
