@@ -20,7 +20,16 @@ library(rr2)
 rm( list = ls() )
 
 #Set working directory
-setwd ( 'C:/Users/SouzaG/Desktop/Analysis test' )
+#This working directory should contain the following folder/files:
+# - "Landmarks_full_dataset" folder
+# - "Landmarks_partial_dataset" folder
+# - "Pereira_tree_pruned_full.tre" tree file
+# - "Pereira_tree_pruned_partial.tre" tree file
+# - "Evers_tree_pruned.tre" tree file
+# - "Sterli_tree_pruned.tre" tree file
+# - Scripts 1-3 to run analyses and "Custom R functions.R" script
+
+setwd ( 'YOUR WORKING DIRECTORY' )
 
 #load custom functions
 
