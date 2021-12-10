@@ -1,4 +1,4 @@
-# Data and annotated R scripts associated with Hermanson _et al._ [Journal name]
+# Data and annotated R scripts associated with Hermanson _et al._
 This repository includes:
 
 - 3D landmark coordinates of extant and fossil turtle skulls, for both the "full landmark dataset" and "partial landmark dataset" (See article). These can be found in the "Landmarks_full_dataset" and "Landmarks_partial_dataset" folders, respectively, within this repository;
