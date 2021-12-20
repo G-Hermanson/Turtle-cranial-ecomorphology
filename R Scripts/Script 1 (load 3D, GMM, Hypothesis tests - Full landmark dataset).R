@@ -78,7 +78,7 @@ Sterli_tree <- read.tree ( 'Sterli_tree_pruned.tre' )
 
 # LOAD SPECIMENS INFO
 
-turtle_data <- read.csv ( "Hermanson et al. Supplementary Data 1.csv" , 
+turtle_data <- read.csv ( "Hermanson et al. S1 Table.csv" , 
                           header = T , row.names = 1 , sep = ";")
 
 full_taxa <- rownames (turtle_data) [ turtle_data$full_dataset == 1 ]
