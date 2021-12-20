@@ -7,4 +7,4 @@ This repository includes:
   
 - R scripts used to run the analyses
 
-Link to the original article at [link], and link to Morphosource project with CT and 3D data at [link]
+Link to Morphosource project with CT and 3D data at [https://www.morphosource.org/projects/000398451]
