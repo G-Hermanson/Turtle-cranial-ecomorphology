@@ -168,8 +168,7 @@ gdf.full$shape <- gdf.full$shape[,,extant_tree_full$tip.label]
 
 # create vector of models
 
-right.sides.full <- c("skull_size","feeds_on_water","feeds_on_land","suction","durophagous","plant","meat","swim",
-                      "neck_retraction","pleurodira","hardness","evasiveness",
+right.sides.full <- c("skull_size",
                       "skull_size + feeds_on_water","skull_size + feeds_on_land","skull_size + suction","skull_size+durophagous",
                       "skull_size+plant","skull_size+meat","skull_size+swim","skull_size+neck_retraction","skull_size+pleurodira",
                       "skull_size+hardness","skull_size+evasiveness",
@@ -415,8 +414,7 @@ gdf.neck <- geomorph.data.frame( "shape" = coords.neck,
 
 # create vector of models
 
-right.sides.neck <- c("skull_size","feeds_on_water","feeds_on_land","suction","durophagous","plant","meat","swim",
-                      "neck_retraction","pleurodira","hardness","evasiveness","neck_ratio",
+right.sides.neck <- c("skull_size",
                       "skull_size + feeds_on_water","skull_size + feeds_on_land","skull_size + suction","skull_size+durophagous",
                       "skull_size+plant","skull_size+meat","skull_size+swim","skull_size+neck_retraction","skull_size+pleurodira",
                       "skull_size+hardness","skull_size+evasiveness","skull_size+neck_ratio",
